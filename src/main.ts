@@ -49,7 +49,7 @@ async function bootstrap() {
 
   // Retrieve the HTTP port from the configuration or use a default value
   const nestPort: number = configService.get<number>('PORT') || 8001;
-  console.log("port is",nestPort)
+  console.log("port is---->",nestPort)
 
   const config = new DocumentBuilder()
     .setTitle(Swagger.Title)
